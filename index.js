@@ -94,3 +94,22 @@ function length_compare(a, b) {
 names.sort(length_compare);
 
 console.log(names);
+
+// 7. Write a JavaScript program to find the most frequent item of an array. eg Sample array: var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3]; Sample Output : a ( 5 times )
+
+// Example one:
+const array1 = [8, "j", "j", "j", 2, 3, "j", 3, "c", 2, 4, 9, 3];
+let mf = 1;
+let m = 0;
+let item;
+for (let i = 0; i < array1.length; i++) {
+    for (let j = i; j < array1.length; j++) {
+        if (array1[i] == array1[j]) m++;
+        if (mf < m) {
+            mf = m;
+            item = array1[i];
+        }
+    }
+    m = 0;
+}
+console.log(item + " ( " + mf + " times ) ");
