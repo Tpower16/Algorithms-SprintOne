@@ -64,3 +64,13 @@ console.log(colors.join());
 
 // Example Three
 console.log(colors.join("+"));
+
+// 5. Write a JavaScript program which accept a number as input and insert dashes (-) between each two even numbers. For example if you accept 025468 the output should be 0-254-6-8
+
+// Example One
+// Using Regex
+const num = "02546";
+
+const regex = /([02468])([02468])/g;
+
+console.log(num.replace(regex, "$1-$2"));
