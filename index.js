@@ -51,3 +51,16 @@ function lastEle(array, n) {
 console.log(lastEle([83, 23, 10, -8]));
 console.log(lastEle([30, 79, 56, 23], 2));
 console.log(lastEle([72, 29, 87, -5], 6));
+
+// 4. Write a simple JavaScript program to join all elements of the following array into a string. Eg myColor = ["Red", "Green", "White", "Black"] returns “Red,Green,White,Black”;
+
+colors = ["Purple", "Yellow", "Red", "Pink", "Blue", "Violet"];
+
+// Example One
+console.log(colors.toString());
+
+// Example Two
+console.log(colors.join());
+
+// Example Three
+console.log(colors.join("+"));
