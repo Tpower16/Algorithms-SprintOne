@@ -1,0 +1,20 @@
+{
+  "name": "Algorithms-SprintOne",
+  "version": "1.0.0",
+  "description": "Algorithms & Data Structures - Sprint One",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tpower16/Algorithms-SprintOne.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tpower16/Algorithms-SprintOne/issues"
+  },
+  "homepage": "https://github.com/Tpower16/Algorithms-SprintOne#readme"
+}
